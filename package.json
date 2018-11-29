@@ -1,0 +1,31 @@
+{
+  "name": "express.ts-boilerplate",
+  "version": "1.0.0",
+  "description": "An boilerplate for Express APIs written in Typescript. Made to be ready to pick-up and use.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node ./dist/index.js",
+    "dev": "ts-node ./src/index.ts",
+    "prod": "npm run build && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PCasado/express.ts-boilerplate.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PCasado/express.ts-boilerplate/issues"
+  },
+  "homepage": "https://github.com/PCasado/express.ts-boilerplate#readme",
+  "dependencies": {
+    "@types/express": "^4.16.0",
+    "dateformat": "^3.0.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.14",
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.1.6"
+  }
+}
